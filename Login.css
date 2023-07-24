@@ -1,0 +1,61 @@
+*{
+    background-color: blanchedalmond;
+}
+fieldset{
+    height: 250px;
+    width: 550px;
+}
+
+label{
+    font-size: 30px;
+}
+
+.input_field{
+    height: 30px;
+    width: 250px;
+}
+
+.input_button{
+   height: 30px;
+   width: 100px;
+   font-size: 20px;
+   background-color: bisque;
+   border-radius: 7px;
+}
+
+h1::first-letter{
+    color:chocolate;
+    background-color: bisque;
+    font-size: 50px;
+}
+
+h1::first-line{
+    color:coral;
+    background-color:bisque;
+}
+
+::marker{
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+label::before{
+    content: "*";
+    color: red;
+}
+
+.required::after{
+    content: " (required)";
+    color: red;
+}
+
+/* to change the default color of text */
+.condition::selection{
+    color:aqua;
+    background-color:brown;
+}
+
+.input_button:hover{
+    color: red;
+    background-color: black;
+}

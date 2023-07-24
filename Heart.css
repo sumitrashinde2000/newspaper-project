@@ -1,0 +1,26 @@
+section{
+    height: 500px;
+    width: 500px;
+    border: 5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section :first-child{
+    height:400px ;
+    width: 230px;
+    background-color: red;
+    border-radius: 190px 90px 0px 300px;
+}
+
+section :last-child{
+    height:400px ;
+    width: 230px;
+    background-color: red;
+    border-radius: 230px 420px 700px 0px;
+}
+
+section aside:hover{
+    background-color: black;
+}

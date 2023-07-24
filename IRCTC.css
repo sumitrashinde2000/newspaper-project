@@ -1,0 +1,147 @@
+/* 
+instead of width flex basis
+flex-grow is to cover the remaining width
+ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 110px;
+    flex-basis: 100%;
+    /* border: 3px solid ; */
+    display: flex;
+    font-family:sans-serif;
+    font-size: 14px;
+    /* align-items: center;
+    justify-content: space-evenly; */
+}
+
+nav #left_logo{
+    height: 110px;
+    flex-basis: 100px;
+    flex-grow: 1;
+    /* border: 3px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav #main_link_block{
+    height: 110px;
+    flex-basis: 500px;
+    flex-grow: 10;
+    /* border: 3px solid green; */
+}
+
+nav #right_logo{
+    height: 110px;
+    flex-basis: 100px;
+    flex-grow: 1;
+    /* border: 3px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav #main_link_block .first_link_block{
+    height: 50px;
+    width:100%;
+    /* border: 3px solid magenta; */
+}
+
+nav #main_link_block .first_link_block ul{
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+
+nav #main_link_block .second_link_block{
+    height: 50px;
+    width:100%;
+    /* border: 3px solid magenta; */
+}
+
+nav #main_link_block .second_link_block ul{
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    cursor: pointer;
+}
+
+nav #main_link_block .first_link_block ul li:nth-of-type(1){
+    font-weight: bolder;
+    background-color: rgba(15, 15, 94, 0.905);
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    padding: 5px ;
+    color: white;
+    border-radius: 2px;
+}
+
+nav #main_link_block .first_link_block ul li:nth-of-type(6){
+    font-weight: bolder;
+    background-color: rgb(218, 211, 211);
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 2px solid;
+}
+
+nav #main_link_block .first_link_block ul .bolder_link{
+    font-weight: bolder;
+}
+
+nav #main_link_block .second_link_block ul .home{
+    color: rgb(100, 95, 95);
+    margin-left: 20px;
+}
+
+nav #main_link_block .second_link_block ul .irctc_exclusive{
+    font-weight: bolder;
+    background-color: rgba(15, 15, 94, 0.905);
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    padding: 7px;
+    color: white;
+    border-radius: 3px solid;
+}
+
+nav #main_link_block .second_link_block ul .trains{
+    text-decoration: underline;
+    color: orange;
+    font-weight: bolder;
+    text-decoration-thickness: 1.8px;
+}
+
+nav #main_link_block .second_link_block ul .holidays{
+    position: relative;
+}
+
+nav #main_link_block .second_link_block ul .holidays ul{
+    height: 100px;
+    width: 150px;
+    border: 2px solid red;
+    position: absolute;
+    top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+

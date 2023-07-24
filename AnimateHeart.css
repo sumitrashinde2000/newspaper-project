@@ -1,0 +1,30 @@
+body{
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+div{
+    font-size: 200px;
+    color: red;
+    animation-name: heart;
+    animation-duration: 20s;
+    animation-timing-function: ease-in;
+    /* display: none; */
+}
+
+@keyframes heart {
+    10%{
+        font-size: 100px;
+    }
+    20%{
+        font-size: 400px;
+    }
+    40%{
+        font-size: 200px;
+    }
+    40%{
+        font-size: 400px;
+    }
+}

@@ -1,0 +1,64 @@
+section{
+    height: 600px;
+    width: 700px;
+    margin-left: 300px;
+    /* border: 2px solid red; */
+    border-top: 10px groove ;
+    border-bottom: 10px groove;
+    border-left: 2px dashed green;
+    border-right: 2px dashed green;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 70px 0px 70px;
+}
+
+.img1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    border: 4px solid black;
+}
+
+.img2{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    border-radius: 50%;
+    border: 4px groove black;
+}
+
+.img3{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    border: 4px solid black;
+}
+
+.img4{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    border-radius: 50%;
+    border: 4px groove black;
+}
+
+.img5{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    border: 4px groove black;
+}
+
+.img6{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    border-radius: 50%;
+    border: 4px groove black;
+}
+
+section:hover{
+    background-color: green;
+}

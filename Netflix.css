@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+section{
+    height: 700px;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-image: linear-gradient(to top left,rgba(25, 21, 21, 0.851),rgba(23, 21, 21, 0.434),rgba(0, 0, 0, 0.84)),url("../image/bg\ img.jpg");
+    background-size: cover;
+}
+
+img{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.btn{
+    margin-left: 1000px;
+    margin-top: -65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text{
+    margin-top: 220px;
+    margin-left: 320px;
+}
+
+.button{
+    margin-top: 10px;
+    margin-left: 440px;
+}
+
+input{
+    padding: 17px 90px;
+    background-color: rgba(34, 27, 27, 0.382);
+    border: 1px solid white ;
+    color: white ;
+    font-size: 17px;
+    border-radius: 3px;
+}

@@ -1,0 +1,23 @@
+section{
+    height: 600px;
+    width: 600px;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.box1,.box2,.box3,.box4{
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+}
+
+
+
+
+
+
+
+
+

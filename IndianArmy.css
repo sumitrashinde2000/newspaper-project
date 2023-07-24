@@ -1,0 +1,17 @@
+section{
+    height: 700px;
+    width: 100%;
+    /* border: 5px solid red; */
+    background-image: linear-gradient(rgba(255, 136, 0, 0.659), rgba(132, 132, 188, 0.714),rgba(8, 135, 8, 0.812)),url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 5px 5px 5px rgb(163, 106, 37);
+}
+h1:hover{
+    text-shadow: 5px 5px 5px rgb(163, 106, 37) ,10px 10px 5px rgb(21, 192, 21);
+}
+
